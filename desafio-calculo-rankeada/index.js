@@ -19,6 +19,6 @@ function calcularNivelRankeada (vitorias, derrotas) {
      } else if (saldoVitorias >= 101) {
           nivel = 'Imortal'
      }
-     console.log(`O herói tem o salde de ${saldoVitorias} vitórias, e está no nível ${nivel}`)
+     console.log(`O herói tem o saldo de ${saldoVitorias} vitórias, e está no nível ${nivel}`)
 }
 calcularNivelRankeada(0, 0)
